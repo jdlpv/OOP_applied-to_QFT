@@ -5,9 +5,9 @@ import sympy
 class particle:
 
     def __init__(self,name,mass,charge,spin,*args):
-        self.quantum_numbers=(charge,spin,*args) #Define the charge of the particles in natural units and the spin in absolute value.
-        self.mass=mass #(MeV)
-        self.spin=spin
+        self.quantum_numbers=(charge,spin,*args) # Define the charge of the particles in natural units and the spin in absolute value.
+        self.mass=mass # MeV (Recomendation)
+        self.spin=spin # Do not enter natural numbers as float (example: spin 1 is valid, but not 1.0)
         self.charge=charge
         self.name=name
         
