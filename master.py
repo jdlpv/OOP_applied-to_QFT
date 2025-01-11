@@ -53,6 +53,6 @@ def QED_Feynman_diagram(propagated_particle):
 
 # Tree-level amplitude
 print('Case in which a photon propagates')
-print(sympy.pretty(QED_Feynman_diagram(photon))) #Caso donde se propaga un fotón
+print(sympy.pretty(QED_Feynman_diagram(photon))) #Case in which a photon propagates
 print('Case in which a fermion propagates')
-print(sympy.pretty(QED_Feynman_diagram(electron))) #Caso donde se propaga un fermión. Nótese que QED_Feynman_diagram(positron) devuelve el mismo resultado
+print(sympy.pretty(QED_Feynman_diagram(electron))) #Case in which a fermion propagates. Note that QED_Feynman_diagram(positron) produces the same result.
