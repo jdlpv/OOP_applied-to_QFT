@@ -20,5 +20,8 @@ public class Main {
         // Define positron
         Particle positron = new Particle("Positron",0.5f,1f,0.5f);
         System.out.println(positron.name+" quantum numbers: Mass "+positron.mass+" eV, Charge: "+ positron.charge +", Spin: "+ positron.spin);
+        // Define photon
+        Particle photon = new Particle("Photon",0f,0f,1f);
+        System.out.println(photon.name+" quantum numbers: Mass "+photon.mass+" eV, Charge: "+ photon.charge +", Spin: "+ photon.spin);
     }
 }
