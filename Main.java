@@ -12,11 +12,6 @@ public class Main {
             this.name = name;
         }
         // Define the propagator
-        public void propagator(){
-                if (this.mass == 0){
-                    System.out.println(this.mass);
-                }
-            }
     }
     // Main
     public static void main(String[] args){
@@ -29,6 +24,5 @@ public class Main {
         // Define photon
         Particle photon = new Particle("Photon",0f,0f,1f);
         System.out.println(photon.name+" quantum numbers: Mass "+photon.mass+" eV, Charge: "+ photon.charge +", Spin: "+ photon.spin);
-        photon.propagator();
     }
 }
