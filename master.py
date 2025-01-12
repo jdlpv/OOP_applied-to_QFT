@@ -1,6 +1,6 @@
 # Libraries
 import sympy
-from SM import photon, electron, positron, muon, antimuon, tau, antitau
+from StandardModel import photon, electron, positron, muon, antimuon, tau, anti_tau
 
 # Define QED vertex
 def QED_vertex(unicode):
